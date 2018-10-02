@@ -3,8 +3,15 @@ class PagesController < ApplicationController
   end
 
   def search
+    @dark_theme = true
   end
 
   def blog
+  end
+
+  def about
+  end
+
+  def partners
   end
 end

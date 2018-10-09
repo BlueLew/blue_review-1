@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'tags/index'
+  get 'tags/new'
+  get 'tags/edit'
+  get 'tags/delete'
   get 'posts/index'
   get 'posts/show'
   get 'pages/home'
